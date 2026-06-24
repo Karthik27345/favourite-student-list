@@ -1,18 +1,135 @@
-# React + Vite
+Student Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📌 Project Overview
 
-Currently, two official plugins are available:
+Student Manager is a React-based web application that helps users manage student records and maintain a list of favourite students. The application provides features such as user authentication, student management, and favourite student tracking using React Context API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+⸻
 
-## React Compiler
+🚀 Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Authentication
 
-Note: This will impact Vite dev & build performances.
+* User Signup
+* User Login
+* Password Confirmation Validation
+* Terms & Privacy Policy Agreement
 
-## Expanding the ESLint configuration
+Student Management
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* View all students
+* Add new students
+* Remove students
+* Display total student count
+
+Favourite Students
+
+* Add students to favourites
+* Prevent duplicate favourites
+* Remove students from favourites
+* Display total favourite students
+* Empty state message when no favourites exist
+
+Notifications
+
+* Success and error notifications using React Hot Toast
+
+UI & Navigation
+
+* Responsive design using Tailwind CSS
+* Navigation using React Router DOM
+* Reusable components (Navbar, Footer, etc.)
+
+⸻
+
+🛠️ Technologies Used
+
+* React.js
+* React Router DOM
+* React Context API
+* Tailwind CSS
+* React Icons
+* React Hot Toast
+* JavaScript (ES6)
+
+⸻
+
+📂 Project Structure
+
+src/
+├── components/
+│ ├── Navbar.jsx
+│ ├── Abovefooter.jsx
+│ ├── Ffooter.jsx
+│ ├── Allstudents.jsx
+│ ├── FavouriteStudents.jsx
+│ └── Arrcontextprovider.jsx
+│
+├── pages/
+│ ├── Login.jsx
+│ └── Signup.jsx
+│
+├── App.jsx
+└── main.jsx
+
+⸻
+
+⚙️ Installation
+
+1. Clone the repository
+
+git clone <repository-url>
+
+2. Navigate to the project folder
+
+cd student-manager
+
+3. Install dependencies
+
+npm install
+
+4. Start the development server
+
+npm run dev
+
+⸻
+
+📖 How It Works
+
+1. Users can create an account using the Signup page.
+2. Registered users can log in to the application.
+3. Users can add and remove student records.
+4. Students can be added to the Favourite Students list.
+5. Duplicate favourites are prevented.
+6. Favourite students can be removed at any time.
+
+⸻
+
+🎯 Learning Outcomes
+
+This project demonstrates:
+
+* React Functional Components
+* React Hooks (useState, useContext)
+* Context API State Management
+* React Router Navigation
+* Conditional Rendering
+* Array Methods (map, filter, find)
+* Form Handling
+* Responsive UI Design
+
+⸻
+
+👨‍💻 Author
+
+Karthik V
+
+Final Year B.E Electronics and Communication Engineering
+
+Sathyabama Institute of Science and Technology
+
+⸻
+
+📜 License
+
+This project is created for educational and learning purposes.
